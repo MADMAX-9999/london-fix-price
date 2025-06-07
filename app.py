@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import csv
 
-url = "https://www.kitco.com/price/precious-metals?Currency=EUR"
+url = "https://www.kitco.com/price/precious-metals"
 headers = {
     "User-Agent": "Mozilla/5.0"
 }
